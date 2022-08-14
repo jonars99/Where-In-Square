@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App App-header">
       <h2>Where in the Square ?</h2>
-      <div className="square" onClick={handleClick}></div>
+      <canvas className="square" onClick={handleClick}></canvas>
       <small>mouseX: {coords[0]}</small>
       <small>mouseY: {coords[1]}</small>
     </div>
